@@ -1,0 +1,425 @@
+/*
+Theme Name: HIPPO
+Theme URI: 
+Author: Dan Taylor
+Author URI: http://www.tailoredmarketing.co.uk
+Description: Custom theme 
+Version: 1.0
+License: Copyright 2015
+*/
+@font-face {
+	font-family: "HelveticaNeueW01-77BdCn 692722";
+	src: 	url("fonts/83d5bc89-af33-46a9-8fe3-15d87784f50e.eot?#iefix");
+	src: 	url("fonts/83d5bc89-af33-46a9-8fe3-15d87784f50e.eot?#iefix") format("eot"), 
+		url("fonts/d90b3358-e1e2-4abb-ba96-356983a54c22.svg#d90b3358-e1e2-4abb-ba96-356983a54c22") format("svg"), 
+		url("fonts/102ab74c-0e84-4fe5-a17a-b20fb643591a.woff") format("woff"), 
+		url("fonts/1d146b29-55e2-485b-96aa-5cb628e7e9eb.ttf") format("truetype"); 
+	font-weight: normal;
+}
+body {
+	font-size: 16px;
+}
+* {
+	font-family: Arial, "Liberation Sans", FreeSans, sans-serif;
+}
+h1, h2, h3, h4, h5, .nav li a, .tel, .search-submit {
+	font-family: "HelveticaNeueW01-77BdCn 692722", "HelveticaNeueW01-77BdCn", "Helvetica Neue", Arial, sans-serif;
+}
+#content h2 {
+	color: #000;
+	display:inline;
+	background-color: #fff100;
+	text-transform:uppercase;
+	font-size: 24px;
+	margin-bottom: 15px;
+}
+#content h2 a {
+	font-family: "HelveticaNeueW01-77BdCn 692722", "HelveticaNeueW01-77BdCn", "Helvetica Neue", Arial, sans-serif;
+	color: #000;	
+}
+#content h2:before {
+	content: " ";
+	display: block;
+	height: 15px;
+}
+#content h2:after {
+	content: " ";
+	display: block;
+	height: 15px;
+}
+#content img {
+	max-width: 100%;
+	height: auto;
+}
+#header {
+    background-color: #fff100;
+	padding: 30px 0;
+}
+#topcontent {
+    background-color: #f1f3e7;
+    padding: 45px;
+}
+.navbar-default {
+	background: none;
+	background-image: none;
+	background-color:#f5f5f5;	
+}
+.navbar {
+    margin-bottom: 0;
+	min-height: 0;
+	border: none;
+	padding: 7px 0;
+}
+.navbar-nav>li>a {
+	padding-top: 10px;
+	padding-bottom: 10px;	
+}
+.navbar-default .navbar-nav>li>a {
+	font-size: 15px;
+	color: #000;
+	text-transform: uppercase;
+	border-right: 1px solid #d5d5d5;	
+}
+.navbar-collapse {
+	padding: 0;
+}
+.nav .dropdown-menu>li>a {
+	font-size: 14px;
+	padding: 10px 20px;
+}
+.dropdown-menu {
+	min-width: 250px;
+}
+.dropdown-menu li:hover .sub-menu {
+    visibility: visible;
+}
+.dropdown:hover .dropdown-menu {
+    display: block;
+}
+.nav .open>a, .nav .open>a:hover, .nav .open>a:focus {
+	border-color: #d5d5d5;	
+}
+#main {
+    background: 
+        url(img/tile.png) repeat;
+}
+#main h1 {
+	text-align:left;
+	text-transform:uppercase;
+	font-size: 30px;
+	padding: 30px 0 30px 0;
+	margin: 0;
+}
+.home #main h1 {
+	padding: 30px 0;
+}
+#main2 {
+    
+}
+.tel {
+	font-size: 23px;
+	text-align:right;
+}
+.search-form .form-control {
+	padding: 5px 10px;
+	padding-left: 30px;
+	border: none;
+	border-radius: 0px;	
+	height: auto;
+}
+.search-form .btn-default {
+	background: #000;
+	color: #fff;
+	text-shadow:none;
+	border: none;
+	box-shadow:none;
+	padding: 4px 8px;
+	border-radius: 0px;	
+}
+.search-field {
+	background-image: url(img/magnify.png);
+	background-position: 7px center;
+	background-repeat:no-repeat;
+}
+#footer {
+    background-color: #2f2f2f;
+    border-top: 10px solid #fff100;
+    padding: 30px 0;
+}
+#footer .pull-right {
+	text-align:right;
+}
+#footer a {
+	color: #fff;
+	padding: 0 10px;
+}
+#footer p {
+    color: #fff;
+}
+#footer h2 {
+	color: #f0e303;
+	font-size: 15px;
+	text-transform: uppercase;
+	margin-top: 0;
+}
+#footer ul {
+	margin: 0;
+	padding: 0;
+	list-style:none;
+	margin-bottom: 30px;
+}
+#footer li a {
+	padding: 3px 0;
+	font-size: 12px;
+	display: block;
+}
+#footer hr {
+	display: block; 
+	height: 1px;
+    border: 0; 
+	border-top: 2px solid #535353;
+	padding: 0;
+	margin: 10px 0;
+}
+.nav li a {
+    font-size: 18px;
+}
+.homebox {
+	margin-top: 30px;
+	margin-bottom: 30px;
+}
+.homebox>div {
+	background-color: #393939;
+	padding: 15px;
+}
+.homebox h2 {
+	font-weight: normal;
+	font-size:18px;
+	color: #fff100;
+	margin: 0;
+	padding: 0;
+}
+.homebox a {
+	color: #fff;
+	font-weight: bold;
+	font-size: 18px;
+}
+.homebox p {
+	padding: 0;
+	margin:0;
+}
+#home-nav ul {
+	list-style-type:none;
+	margin: 0;
+	padding: 0;
+}
+#home-nav li a {
+	font-family: "HelveticaNeueW01-77BdCn 692722", "HelveticaNeueW01-77BdCn", "Helvetica Neue", Arial, sans-serif;
+	display: block;
+	padding: 20px 30px;
+	background-color: #dbdbdb;
+	border: solid 5px #dbdbdb;
+	color: #000;
+	font-size: 22px;
+	margin-bottom: 29px;
+	height: 80px;
+	position:relative;
+	font-weight: bold;
+        text-transform: uppercase;
+}
+#home-nav li a:hover {
+	text-decoration: none;
+}
+#home-nav li a i {
+	position:absolute;
+	right: 30px;
+	top: 39%;
+	color: #a8a7a7;
+}
+#home-nav li:first-child a {
+	background-color: #fff100;
+	border-color: #e7de12;
+	text-transform:uppercase;
+}
+#home-nav li:first-child a i {
+	color: #e7de12;
+}
+#home-nav li:last-child a {
+	margin-bottom: 0;
+}
+.quote {
+	font-size: 70px;
+}
+.blockquote {
+	position:relative;
+}
+.quote-right {
+	margin-top: 60px;
+}
+#content .blockquote h2 {
+	color: #000;	
+}
+.test {
+	width: 200px;
+	height: 200px;
+	background-color: red;
+	float: left;
+	margin-right: 30px;
+}
+.contact_form {
+	padding: 30px 60px;
+	background-color: #eeeeee;
+}
+#content {
+	padding-bottom: 60px;
+}
+#content .contact_form h2 {
+	color: #000;
+	padding: 0;
+	margin: 0;
+	padding-bottom: 30px;
+}
+.input-group-addon {
+	background-color: #969696;
+}
+.input-group-addon i {
+	width: 25px;
+	color: #fff;
+}
+#content .contact_form .form-control {
+	min-height: 40px;
+	border-color: #fff;
+	box-shadow:none;
+}
+.btn-primary {
+	font-family: "HelveticaNeueW01-77BdCn 692722", "HelveticaNeueW01-77BdCn", "Helvetica Neue", Arial, sans-serif;
+	background: none;
+	background-color: #fff100;
+  	border: solid 5px #e7de12;
+	color: #000;
+	text-shadow:none;
+	box-shadow:none;
+	font-size: 16px;
+	padding: 7px 30px;
+}
+.input-group {
+	margin-bottom: 10px;
+}
+.contact_right {
+	height: 496px;
+	background-image: url(img/contact_right.png);
+	background-repeat:no-repeat;
+	background-size:cover;
+	background-position:top center;
+}
+
+.search-result {
+	padding: 15px 0;
+	border-bottom: dotted 1px #ccc;	
+}
+
+/* =WordPress Core
+-------------------------------------------------------------- */
+.alignnone {
+    margin: 5px 20px 20px 0;
+}
+.aligncenter,
+div.aligncenter {
+    display: block;
+    margin: 5px auto 5px auto;
+}
+.alignright {
+    float:right;
+    margin: 5px 0 20px 20px;
+}
+.alignleft {
+    float: left;
+    margin: 5px 20px 20px 0;
+}
+a img.alignright {
+    float: right;
+    margin: 5px 0 20px 20px;
+}
+a img.alignnone {
+    margin: 5px 20px 20px 0;
+}
+a img.alignleft {
+    float: left;
+    margin: 5px 20px 20px 0;
+}
+a img.aligncenter {
+    display: block;
+    margin-left: auto;
+    margin-right: auto
+}
+.wp-caption {
+    background: #fff;
+    border: 1px solid #f0f0f0;
+    max-width: 96%; /* Image does not overflow the content area */
+    padding: 5px 3px 10px;
+    text-align: center;
+}
+.wp-caption.alignnone {
+    margin: 5px 20px 20px 0;
+}
+.wp-caption.alignleft {
+    margin: 5px 20px 20px 0;
+}
+.wp-caption.alignright {
+    margin: 5px 0 20px 20px;
+}
+.wp-caption img {
+    border: 0 none;
+    height: auto;
+    margin: 0;
+    max-width: 98.5%;
+    padding: 0;
+    width: auto;
+}
+.wp-caption p.wp-caption-text {
+    font-size: 11px;
+    line-height: 17px;
+    margin: 0;
+    padding: 0 4px 5px;
+}
+/* Text meant only for screen readers. */
+.screen-reader-text {
+	clip: rect(1px, 1px, 1px, 1px);
+	position: absolute !important;
+	height: 1px;
+	width: 1px;
+	overflow: hidden;
+}
+.screen-reader-text:focus {
+	background-color: #f1f1f1;
+	border-radius: 3px;
+	box-shadow: 0 0 2px 2px rgba(0, 0, 0, 0.6);
+	clip: auto !important;
+	color: #21759b;
+	display: block;
+	font-size: 14px;
+	font-size: 0.875rem;
+	font-weight: bold;
+	height: auto;
+	left: 5px;
+	line-height: normal;
+	padding: 15px 23px 14px;
+	text-decoration: none;
+	top: 5px;
+	width: auto;
+	z-index: 100000; /* Above WP toolbar. */
+}
+@media (min-width: 1200px) {
+	.container {
+	  width: 1100px;
+	}
+}
+@media (min-width: 768px) {
+    .nav>li>a {
+        width: 160px;
+        text-align: center;
+    }
+    .navbar-nav {
+        float: right;
+	}
+}

@@ -1,0 +1,5 @@
+[10-Mar-2015 08:04:06 UTC] PHP Warning:  require_once(inc/wp_bootstrap_navwalker.php): failed to open stream: No such file or directory in /home/tailored/tailoreddev.co.uk/clients/hippo/wp-content/themes/custom_theme/functions.php on line 3
+[10-Mar-2015 08:04:06 UTC] PHP Fatal error:  require_once(): Failed opening required 'inc/wp_bootstrap_navwalker.php' (include_path='.:/usr/lib/php:/usr/local/lib/php') in /home/tailored/tailoreddev.co.uk/clients/hippo/wp-content/themes/custom_theme/functions.php on line 3
+[12-Mar-2015 07:20:03 UTC] PHP Fatal error:  Call to undefined function print_var() in /home/tailored/tailoreddev.co.uk/clients/hippo/wp-content/themes/custom_theme/functions.php on line 210
+[12-Mar-2015 07:31:01 UTC] PHP Warning:  date() expects at least 1 parameter, 0 given in /home/tailored/tailoreddev.co.uk/clients/hippo/wp-content/themes/custom_theme/functions.php on line 160
+[12-Mar-2015 08:33:36 UTC] PHP Warning:  date() expects parameter 2 to be long, string given in /home/tailored/tailoreddev.co.uk/clients/hippo/wp-content/themes/custom_theme/functions.php on line 320
