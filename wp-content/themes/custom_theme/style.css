@@ -256,8 +256,14 @@ h1, h2, h3, h4, h5, .nav li a, .tel, .search-submit {
 .quote-right {
 	margin-top: 60px;
 }
+.blockquote>div {
+	background-color: #eee;
+}
 #content .blockquote h2 {
 	color: #000;	
+	position: absolute;
+  	bottom: 67PX;
+  	left: 563PX;
 }
 .test {
 	width: 200px;
