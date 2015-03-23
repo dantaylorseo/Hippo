@@ -309,7 +309,7 @@ h1, h2, h3, h4, h5, .nav li a, .tel, .search-submit {
 	height: 496px;
 	background-image: url(img/contact_right.png);
 	background-repeat:no-repeat;
-	background-size:cover;
+	background-size:contain;
 	background-position:top center;
 }
 
