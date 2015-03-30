@@ -11,7 +11,7 @@
                 <?php } ?>
                 <div class="row">
                 	<div class="col-md-16">
-                    	<img src="<?php  echo esc_url( get_stylesheet_directory_uri() ) ; ?>/img/home.png" class="img-responsive" width="800" height="340">
+                    	<img src="<?php  echo esc_url( get_stylesheet_directory_uri() ) ; ?>/img/home.jpg" class="img-responsive" width="800" height="340">
                     </div>
                     <div class="col-md-8">
                     	<?php if ( function_exists('wp_nav_menu') ) { wp_nav_menu( array(
