@@ -142,7 +142,7 @@ h1, h2, h3, h4, h5, .nav li a, .tel, .search-submit {
 	background-repeat:no-repeat;
 }
 #footer {
-    background-color: #2f2f2f;
+    background-color: #222;
     border-top: 10px solid #fff100;
     padding: 30px 0;
 }
@@ -189,7 +189,7 @@ h1, h2, h3, h4, h5, .nav li a, .tel, .search-submit {
 	margin-bottom: 30px;
 }
 .homebox>div {
-	background-color: #393939;
+	background-color: #222;
 	padding: 15px;
 }
 .homebox h2 {
@@ -224,7 +224,7 @@ h1, h2, h3, h4, h5, .nav li a, .tel, .search-submit {
 	margin-bottom: 29px;
 	height: 80px;
 	position:relative;
-	font-weight: bold;
+	font-weight: normal;
         text-transform: uppercase;
 }
 #home-nav li a:hover {
