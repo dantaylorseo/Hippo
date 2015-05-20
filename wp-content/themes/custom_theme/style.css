@@ -423,7 +423,7 @@ a img.aligncenter {
 }
 @media (min-width: 768px) {
     .nav>li>a {
-        width: 160px;
+        width: 180px;
         text-align: center;
     }
     .navbar-nav {
