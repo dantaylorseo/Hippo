@@ -37,7 +37,7 @@
                         	<h2>Companies We Work With</h2>
                         	<p><a href="/case-studies/companies-we-work-with/">Read More &raquo;</a></p>
                         </div>
-                        <img src="<?php  echo esc_url( get_stylesheet_directory_uri() ) ; ?>/img/home-1.png" class="img-responsive" width="400" height="255">
+                        <img src="<?php  echo esc_url( get_stylesheet_directory_uri() ) ; ?>/img/companies.jpg" class="img-responsive" width="400" height="255">
                     </div>
                     <div class="col-md-8 homebox">
                     	<div>

@@ -311,3 +311,4 @@ Your friendly website robot.
 	
 }
 $tailored_theme = new tailored_theme_class();
+

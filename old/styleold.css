@@ -1,0 +1,295 @@
+* {
+	margin:0;
+	padding:0;
+}
+body {
+	font-family:Arial, Helvetica, sans-serif;
+	font-size:12px;
+	color:#747474;
+	background:#FFF url(images/bg.jpg) repeat-x;
+	line-height:18px;
+}
+img {
+	border:none;
+}
+.clr {
+	float:none;
+	clear:both;
+}
+a {
+	text-decoration:none;
+	color:#00617a;
+}
+a:hover {
+	text-decoration:none;
+	color:#00617a;
+}
+.wrapper {
+	margin:auto;
+	width:951px;
+	padding:0 0 20px 0;
+}
+/*css for header */
+.header {
+	float:left;
+	width:951px;
+}
+.header .logo {
+	float:left;
+	margin:25px 0 0 0;
+	width:186px;
+	height:63px;
+}
+.header-right {
+	float:right;
+	width:690px;
+}
+.top-section {
+	float:left;
+}
+.search {
+	float:left;
+	margin:0 4px 0 0;
+	border: 1px solid #ced7db;
+	padding:12px;
+	height:26px;
+	text-align: center;
+	width: 200px;
+	-webkit-border-radius: 8px;
+	-moz-border-radius: 8px;
+	border-radius:0 0px 8px 8px;
+	background:#FFF;
+	behavior: url(PIE.htc);
+}
+.search p {
+	float:left;
+	border:1px solid #ced7db;
+	border-right:none;
+	width:181px;
+}
+.search p input {
+	float:left;
+	color:#747474;
+	height:24px;
+	width:170px;
+	border:none;
+	padding:0 0 0 4px;
+}
+.search-btn {
+	border:1px solid #ced7db;
+	height:21px;
+	border-left:none;
+	float:right;
+	padding:3px 0 0 0;
+}
+.search-btn input {
+	height:17px;
+	width:17px;
+}
+.navigation {
+	float:left;
+	width:690px;
+	padding:20px 0 0 0;
+}	
+.navigation ul li {
+	list-style:none;
+	float:left;
+	padding:0 10px;
+	border-right:1px solid #ced7db;
+}
+/*css end of header*/
+
+/*****************************************************************************/
+
+/*css for slider*/
+.slider {
+	float:left;
+	width:951px;
+	margin:27px 0 0 0;
+	border:1px solid #ced7db;
+	border-right:none;
+	border-left:none;
+	height:300px;
+}
+.slider .text-content {
+	float:left;
+	margin:60px 0 0 0;
+}	
+.slider .text-content h3 {
+	text-transform:uppercase;
+	font-size:12px;
+	font-weight:normal;
+}
+.slider .text-content p {
+	margin:10px 0 0 0;	
+}
+#banner {
+	color:#231f20;
+	margin:7px 0 0 0;
+	font-size:33px;
+	font-weight:normal;
+}
+.slider .text-content .cantrols {
+	margin:35px 0 0 0;	
+}
+.maincontent {
+	float:left;
+	width:951px;
+	margin-bottom:26px;
+}	
+.maincontent .left {
+	float:left;
+	border-right:1px solid #ced7db;
+	width:624px;
+	padding:24px 0 0 0;
+}
+.welcome-box {
+	float:left;
+	width:300px;
+	margin:0 12px 0 0;
+}
+.welcome-box h1 {
+	font-size:18px;
+	font-weight:bold;
+	color:#00617a;	
+}
+.welcome-box p {
+	margin:12px 0 0 0;	
+}
+.chkimg {
+	float:left;
+	margin:2px 4px 0 0;
+}
+.left-seprator {
+	float:left;
+	width:624px;
+	margin:30px 0 29px 0;
+	border-top:1px solid #ced7db;
+}
+.welcome-box .testimonials {
+	background-image:url(images/testimonial.jpg);
+	width:304px;
+	height:192px;
+	color:#65b136;
+	padding:23px 0 0 0 ;
+}
+.testimonials strong {
+	font-size:14px;	
+}
+.regional-services {
+	float:left;
+	width:150px;	
+}
+.map {
+	float:right;	
+}
+.video {
+	text-align:center;
+	float:left;
+	margin:10px 0 0 0;
+	width:260px;
+	padding:30px 20px;
+	background-color:#000;
+	color:#FFF;
+	font-size:20px;
+}
+.maincontent .right {
+	float:right;
+	width:293px;
+	padding:24px 0 0 0;
+}
+.maincontent .right h1 {
+	font-size:18px;
+	font-weight:bold;
+	color:#00617a;		
+	margin:0 0 0px 0;
+}
+.news {
+	line-height:19px;
+	border-bottom:1px solid #ced7db;
+	padding:10px 0;
+}	
+.news strong {
+	color:#65b136;		
+}
+.news .last {
+	border:none;
+}
+.case-studies {
+	border-top:1px solid #ced7db;
+	border-bottom:1px solid #ced7db;
+	float:left;
+	width:951px;
+	padding:25px 0;
+}
+.case-studies img {
+	float:left;
+	margin:0 6.5px;
+}
+.logo-scrolling {
+	float:left;
+	width:951px;
+}
+.logo-scrolling p {
+	float:left;
+	width:252px;
+	height:26px;
+}
+.marquee {
+	width:650px;
+	float:right;
+}
+.footer {
+	width:951px;
+	float:left;
+	margin:9px 0 0 0;	
+	padding:18px 0 0 0;
+	border-top:3px solid #7fbb5f;
+}
+.footer-links {
+	float:left;
+	width:210px;
+	margin:0 13px;
+}
+.footer-links h1 {
+	font-size:12px;
+	color:#231f20;
+	margin-bottom:6px;
+}
+.footer-links ul li {
+	list-style:none;
+	line-height:22px;
+}
+.copyright {
+	width:951px;
+	font-size:10px;
+	float:left;
+	line-height:38px;
+	margin:11px 0 0 0;
+	border-top:1px solid #ced7db;
+	border-bottom:1px solid #ced7db;
+}
+.copyright p {
+	float:left;	
+}
+.copyright span {
+	float:right;	
+}
+.bottom p {
+	float:left;
+	width:425px;
+	color:#6d6f72;
+	font-size:10px;
+	line-height:15px;
+	margin:12px 0 0 0 ;
+}
+.bottom .logos {
+	float:right;
+	width:500px;
+	margin:17px 0 0 0;
+	text-align:right;
+}
+.bottom .logos img {
+	margin:0 6px;
+	float:left;
+}
